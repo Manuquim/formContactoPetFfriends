@@ -5,28 +5,14 @@
 }
 
 .cuadro{
-    background-color: rgb(254, 208, 152);
+    background-color: rgb(253, 208, 185);
     display:flex;
     margin: auto;
 }
 
-.footer{
-    background-color: black;
-    width: 100%;
-    color: grey;
-}
-/* Start: Google Maps Responsive */
-.map-responsive {
-    overflow:hidden;
-    padding-bottom:400px; /*Reduce este valor si el mapa fuera muy alto, por ejemplo 250px, puedes usar porcentajes, 50%*/
-    position:relative;
-    height:0;
-}
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
-/* End: Google Maps Responsive */
+.imagen-animal {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+

@@ -1,5 +1,5 @@
 import React from "react";
-import "/workspace/formContactoPetFfriends/src/styles/contacto.css"
+import "./contacto.css"
 
 const Contacto = () => {
     return (
@@ -8,15 +8,15 @@ const Contacto = () => {
                 <input type="text" class="form-control" id="email" placeholder="Nombre" name="nombre"/>
                 <label for="email">Nombre</label>
             </div>
-            <div class="form-floating mt-3 mb-3">
+            <div class="form-floating mt-2 mb-2">
                 <input type="text" class="form-control" id="pwd" placeholder="Email" name="email"/>
                 <label for="pwd">Email</label>
             </div>
-            <div class="form-floating mt-3 mb-3">
+            <div class="form-floating mt-2 mb-2">
                 <input type="text" class="form-control" id="asunto" placeholder="Asunto" name="asunto"/>
                 <label for="asunto">Asunto</label>
             </div>
-            <div class="form-floating mt-3 mb-3">
+            <div class="form-floating mt-2 mb-2">
                 <textarea class="form-control" id="comment" name="text" placeholder="Comment goes here"></textarea>
                 <label for="comment">Mensaje</label>
             </div>
