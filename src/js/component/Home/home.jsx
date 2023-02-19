@@ -8,25 +8,18 @@ const Home = () => {
 	return (
 		<div className="container-fluid">
     		<div className="row">
-				<div className="col-6 imagen-animal">
-					<img src="https://cdn.pixabay.com/photo/2016/03/31/19/23/cat-1294968_1280.png" 
-					 alt="animal" width="180" height="180" />
-       			</div>
-        		<div className="col-4">
-             		<h2>CONTACTA CON </h2>
-					<h2>PET FRIENDS</h2>
-             		<p>info@petfriends.com</p>
-        		</div>
-    		</div>
-    		<div className="row">
 				<div className="cuadro">
-        			<div className="col-4">
-             			1 of 3
+        			
+					<div className="col-3 p-5">
+						<img src="https://cdn.pixabay.com/photo/2016/03/31/19/23/cat-1294968_1280.png" 
+					 	alt="animal" width="230" height="200" />
         			</div>
-        			<div className="col-4">
-						MAP	
+					<div className="col-4 p-5">
+						<h2>CONTACTA CON </h2>
+						<h2>PET FRIENDS</h2>
+             			<p>info@petfriends.com</p>
        				</div>
-       				<div className="col-4 py-2">
+       				<div className="col-5 py-2">
             			<Contacto/>
         			</div>
 				</div>

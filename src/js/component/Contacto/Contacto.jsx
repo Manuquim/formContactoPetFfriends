@@ -3,30 +3,24 @@ import "./contacto.css"
 
 const Contacto = () => {
     return (
-        <div>
-            <div class="form-floating mb-1 mt-2">
+        <div className="contacto px-4">
+            <div class="form-floating-sm mb-1 mt-2">
                 <input type="text" class="form-control" id="email" placeholder="Nombre" name="nombre"/>
-                <label for="email">Nombre</label>
             </div>
-            <div class="form-floating mt-2 mb-2">
+            <div class="form-floating-sm mt-2 mb-2">
                 <input type="text" class="form-control" id="pwd" placeholder="Email" name="email"/>
-                <label for="pwd">Email</label>
             </div>
-            <div class="form-floating mt-2 mb-2">
+            <div class="form-floating-sm mt-2 mb-2">
                 <input type="text" class="form-control" id="asunto" placeholder="Asunto" name="asunto"/>
-                <label for="asunto">Asunto</label>
             </div>
-            <div class="form-floating mt-2 mb-2">
-                <textarea class="form-control" id="comment" name="text" placeholder="Comment goes here"></textarea>
-                <label for="comment">Mensaje</label>
+            <div class="form-floating-sm mt-2 mb-2">
+                <textarea class="form-control" id="comment" name="text" placeholder="Tus comentarios aqui!!!"></textarea>      
             </div>
-            <div class="col d-md-flex justify-content-md-end">
-                <button type="submit" class="btn btn-warning me-md-2">Ingresar</button>
-            </div>
-            <div class="col d-md-flex justify-content-md-end">
-                <p>Gracias por tu mensaje!!!</p>
+            <div class="col d-md-flex justify-content-around">
+                <button type="submit" className="btn btn-outline-dark btn-lg me-md-2">Enviar...</button>
+                <p className="pt-3">Gracias por tu mensaje!!!</p>
             </div>
         </div>
-    );
+    ); 
 };
 export default Contacto;
